@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.home.fragments.CallHelplineNumbersFragment">
+
+    <ImageView
+        android:id="@+id/helplineImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/police"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/helplineImage">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/AmbulanceNumberLayout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintEnd_toStartOf="@+id/saveAmbulanceButton"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/AmbulanceNumberET"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Ambulance Number" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <ImageView
+                android:id="@+id/saveAmbulanceButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/ic_baseline_save_24"
+                app:layout_constraintBottom_toBottomOf="@+id/AmbulanceNumberLayout"
+                app:layout_constraintEnd_toStartOf="@+id/callAmbulance"
+                app:layout_constraintStart_toEndOf="@+id/AmbulanceNumberLayout"
+                app:layout_constraintTop_toTopOf="@+id/AmbulanceNumberLayout"
+                app:tint="@color/black" />
+
+            <ImageView
+                android:id="@+id/callAmbulance"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/ic_baseline_call_24"
+                app:layout_constraintBottom_toBottomOf="@+id/saveAmbulanceButton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/saveAmbulanceButton"
+                app:layout_constraintTop_toTopOf="@+id/saveAmbulanceButton"
+                app:tint="@color/green" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/womenHelplineLayout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintEnd_toStartOf="@+id/saveWomenHelplineButton"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/womenHelplineNumberET"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Women Helpline Number" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <ImageView
+                android:id="@+id/saveWomenHelplineButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/ic_baseline_save_24"
+                app:layout_constraintBottom_toBottomOf="@+id/womenHelplineLayout"
+                app:layout_constraintEnd_toStartOf="@+id/callWomenHelpline"
+                app:layout_constraintStart_toEndOf="@+id/womenHelplineLayout"
+                app:layout_constraintTop_toTopOf="@+id/womenHelplineLayout"
+                app:tint="@color/black" />
+
+            <ImageView
+                android:id="@+id/callWomenHelpline"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/ic_baseline_call_24"
+                app:layout_constraintBottom_toBottomOf="@+id/saveWomenHelplineButton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/saveWomenHelplineButton"
+                app:layout_constraintTop_toTopOf="@+id/saveWomenHelplineButton"
+                app:tint="@color/green" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/policeHelplineLayout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintEnd_toStartOf="@+id/savepoliceHelplineButton"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/policeHelplineNumberET"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Call Police" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <ImageView
+                android:id="@+id/savepoliceHelplineButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/ic_baseline_save_24"
+                app:layout_constraintBottom_toBottomOf="@+id/policeHelplineLayout"
+                app:layout_constraintEnd_toStartOf="@+id/callPoliceHelpline"
+                app:layout_constraintStart_toEndOf="@+id/policeHelplineLayout"
+                app:layout_constraintTop_toTopOf="@+id/policeHelplineLayout"
+                app:tint="@color/black" />
+
+            <ImageView
+                android:id="@+id/callPoliceHelpline"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/ic_baseline_call_24"
+                app:layout_constraintBottom_toBottomOf="@+id/savepoliceHelplineButton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/savepoliceHelplineButton"
+                app:layout_constraintTop_toTopOf="@+id/savepoliceHelplineButton"
+                app:tint="@color/green" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

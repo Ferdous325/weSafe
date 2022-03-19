@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_nav">
+
+    <fragment
+        android:id="@+id/addContractsFragment"
+        android:name="com.bauet.wesafe.ui.home.fragments.AddContractsFragment"
+        android:label="fragment_add_contracts"
+        tools:layout="@layout/fragment_add_contracts" />
+    <fragment
+        android:id="@+id/callHelplineNumbersFragment"
+        android:name="com.bauet.wesafe.ui.home.fragments.CallHelplineNumbersFragment"
+        android:label="fragment_call_helpline_numbers"
+        tools:layout="@layout/fragment_call_helpline_numbers" >
+
+    </fragment>
+
+</navigation>

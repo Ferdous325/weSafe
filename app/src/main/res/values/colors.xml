@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="green">#55DA03</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="red">#FF0000</color>
+
+    <color name="colorPrimaryDark">#006F3D</color>
+    <color name="colorPrimary">#00844A</color>
+    <color name="colorAccent">#00844A</color>
+    <color name="login_title_color">#26000000</color>
+
+    <color name="colorPrimaryVariant">#3b77c2</color>
+    <color name="colorPrimaryCOD">#3566B0</color>
+    <color name="colorAccentCOD">#4389d5</color>
+    <color name="colorSeparatorCOD">#6D929F</color>
+
+    <color name="blue_light_bg">#E9F7FE</color>
+    <color name="blue_light_bg_line">#B9E5FB</color>
+
+    <color name="aDheaderColor">#f05a2b</color>
+
+    <color name="blue">#008fd3</color>
+    <color name="blue_dark">#2C363F</color>
+    <color name="light_blue">#4e6aa4</color>
+    <color name="text_black">#212121</color>
+    <color name="orangeForText">#F15A2D</color>
+    <color name="orange_100">#EDC8BC</color>
+
+    <color name="green_900">#1B5E20</color>
+    <color name="green_500">#4CAF4F</color>
+    <color name="lightGreen">#DFF0E0</color>
+    <color name="lightGreen2">#529466</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#CC000000</color>
+    <color name="black_100">#000000</color>
+    <color name="black_90">#E6000000</color>
+    <color name="black_85">#D9000000</color>
+    <color name="black_80">#CC000000</color>
+    <color name="black_75">#BF000000</color>
+    <color name="black_70">#B3000000</color>
+    <color name="black_60">#99000000</color>
+    <color name="black_50">#80000000</color>
+    <color name="black_40">#66000000</color>
+    <color name="black_30">#4D000000</color>
+    <color name="black_25">#40000000</color>
+    <color name="black_20">#33000000</color>
+    <color name="black_15">#26000000</color>
+    <color name="black_10">#1A000000</color>
+    <color name="black_5">#0D000000</color>
+    <color name="blur">#FFFFFF</color>
+    <color name="separator">#26000000</color>
+    <color name="hint">#66000000</color>
+    <color name="bg_cod_top_lay">#99F1F1F3</color>
+
+    <color name="gray">#afadad</color>
+    <color name="gray_50">#fafafa</color>
+    <color name="gray_100">#f5f5f5</color>
+    <color name="gray_150">#808285</color>
+    <color name="gray_200">#4De0e0e0</color>
+    <color name="gray_300">#e0e0e0</color>
+    <color name="gray_500">#999999</color>
+    <color name="action_icon_background">#40000000</color>
+
+    <color name="divider">#1A000000</color>
+    <color name="background">#f0f0f0</color>
+    <color name="drawer_icon_color">#9ca5b4</color>
+
+    <color name="bg_rv">#08000000</color>
+    <color name="positive">#66BB6A</color>
+    <color name="negative">#FF8E34</color>
+    <color name="neutral">#E1F3F3</color>
+    <color name="red_900">#B71C1C</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="ashColor">#7F95A3</color>
+    <color name="header_layout_color">#FFE284</color>
+    <color name="marker">#000000</color>
+    <color name="selectedMenuBottomNav">#FFFF00</color>
+
+    <color name="collector">#ed1c24</color>
+    <color name="charge_unselect_color">#949599</color>
+    <color name="charge_title_color">#cd282f</color>
+    <color name="charge_calculation_color">#e11f27</color>
+    <color name="charge_back_color">#d4e1f4</color>
+    <color name="orange">#f05a2b</color>
+
+    <color name="return_state_1">#7FB545</color>
+    <color name="return_state_2">#5E9C47</color>
+    <color name="return_state_3">#00844A</color>
+
+    <color name="green_light_bg">#F0F7E8</color>
+    <color name="green_light_bg_line">#DAEBC1</color>
+    <color name="card_background">#FFFFFF</color>
+
+    <color name="dashboard_default">#EDEDEE</color>
+    <color name="dashboard_positive">#EEF8EF</color>
+    <color name="dashboard_negative">#FFEBDB</color>
+    <color name="dashboard_neutral">#E1F3F3</color>
+    <color name="dashboard_waiting">#FFF4DB</color>
+    <color name="dashboard_default_text">#008C44</color>
+    <color name="dashboard_positive_text">#66BB6A</color>
+    <color name="dashboard_negative_text">#EC1C24</color>
+    <color name="dashboard_neutral_text">#73B4C8</color>
+    <color name="dashboard_waiting_text">#FFB300</color>
+
+    <color name="selection_color">#c6edd6</color>
+
+    <color name="ash">#727272</color>
+    <color name="ash_instant">#bababa</color>
+
+    <color name="actionButtonColor">@color/blue</color>
+    <color name="product_selected_color">#80008FD3</color>
+    <color name="checkout_tab_color">#008fd3</color>
+
+    <color name="network_state_poor">#FF5722</color>
+    <color name="network_state_moderate">#FFC107</color>
+    <color name="network_state_good">#00e676</color>
+
+    <color name="appColor">#e74c3c</color>
+
+    <color name="purple">#3244A4</color>
+
+    <!--ucrop theme color-->
+    <color name="ucrop_color_statusbar">@color/colorPrimaryDark</color>
+    <color name="ucrop_color_toolbar">@color/colorPrimary</color>
+    <color name="ucrop_color_toolbar_widget">@color/white</color>
+    <color name="ucrop_color_blaze_orange">#fff</color>
+    <color name="ucrop_color_widget_active">@color/colorPrimary</color>
+    <color name="bottom_appbar_color">#E6009A4E</color>
+
+    <color name="action_color">#00844A</color>
+    <color name="secondary_text">#80000000</color>
+    <color name="sender_msg_background">#01AA60</color>
+    <color name="receiver_msg_background">#015E35</color>
+    <color name="file_send_background">#EFEFEF</color>
+    <color name="unread_background">#e6f6ed</color>
+    <color name="read_background">#ffffff</color>
+
+    <color name="dana_option_unselected">#EEF3F7</color>
+
+
+    <color name="cod_bg_one">#626366</color>
+    <color name="cod_bg_two">#626366</color>
+    <color name="cod_bg_three">#00834A</color>
+    <color name="cod_bg_four">#FAD2BD</color>
+    <color name="cod_bg_five">#FFEFE6</color>
+    <color name="cod_bg_six">#EC6639</color>
+    <color name="cod_bg_seven">#B1C8B2</color>
+    <color name="cod_bg_eight">#ECF1EB</color>
+    <color name="cod_bg_nine">#00834A</color>
+    <color name="cod_bg_ten">#626366</color>
+
+    <color name="bank_instant_payment_background">#EBEFF8</color>
+    <color name="bank_instant_payment_transfer_background">#3A85C6</color>
+
+
+</resources>
